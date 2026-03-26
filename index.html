@@ -5,15 +5,18 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial;
-      background: #0f172a;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #020617);
       color: white;
     }
 
     nav {
-      background: #020617;
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(10px);
       padding: 15px;
       text-align: center;
+      position: sticky;
+      top: 0;
     }
 
     nav a {
@@ -29,29 +32,46 @@
     }
 
     h1 {
-      font-size: 40px;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      opacity: 0.8;
     }
 
     .card {
-      background: #1e293b;
-      padding: 20px;
+      background: rgba(30, 41, 59, 0.7);
+      padding: 25px;
       margin: 20px auto;
-      border-radius: 10px;
+      border-radius: 15px;
       max-width: 500px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: rgba(30, 41, 59, 0.9);
     }
 
     .btn {
       display: inline-block;
       margin: 10px;
-      padding: 10px 20px;
-      background: #38bdf8;
+      padding: 12px 22px;
+      background: linear-gradient(45deg, #38bdf8, #0ea5e9);
       color: black;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 8px;
       font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
+
 <body>
 
   <nav>
@@ -65,16 +85,16 @@
     <p>BCA Student | AI & Cybersecurity Enthusiast</p>
 
     <a class="btn" href="https://github.com/ManavRavindra">GitHub</a>
-    <a class="btn" href="https://www.linkedin.com/in/manav-ravindra"">LinkedIn</a>
+    <a class="btn" href="https://www.linkedin.com/in/manav-ravindra">LinkedIn</a>
 
     <div class="card">
       <h2>About Me</h2>
-      <p>I am passionate about AI, cybersecurity, and building future technologies.</p>
+      <p>I am a BCA student focused on AI and cybersecurity. I am currently building real-world projects to strengthen my skills.</p>
     </div>
 
     <div class="card">
       <h2>Projects</h2>
-      <p>Coming soon...</p>
+      <p>Currently building projects in AI and cybersecurity. Stay tuned.</p>
     </div>
 
     <div class="card">
