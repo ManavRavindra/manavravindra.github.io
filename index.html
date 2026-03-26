@@ -1,45 +1,86 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>Manav Ravindra</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial;
       background: #0f172a;
       color: white;
-      text-align: center;
-      padding: 40px;
     }
+
+    nav {
+      background: #020617;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+
     h1 {
       font-size: 40px;
     }
+
     .card {
       background: #1e293b;
       padding: 20px;
-      margin: 20px;
+      margin: 20px auto;
       border-radius: 10px;
+      max-width: 500px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
 
-  <h1>Manav Ravindra</h1>
-  <p>BCA Student | AI & Cybersecurity Enthusiast</p>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
 
-  <div class="card">
-    <h2>About Me</h2>
-    <p>I am passionate about AI, cybersecurity, and building future technologies.</p>
-  </div>
+  <div class="container">
+    <h1>Manav Ravindra</h1>
+    <p>BCA Student | AI & Cybersecurity Enthusiast</p>
 
-  <div class="card">
-    <h2>Projects</h2>
-    <p>Coming soon...</p>
-  </div>
+    <a class="btn" href="https://github.com/ManavRavindra">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/manav-ravindra"">LinkedIn</a>
 
-  <div class="card">
-    <h2>Contact</h2>
-    <p>Email: manavravindra.dev@gmail.com</p>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I am passionate about AI, cybersecurity, and building future technologies.</p>
+    </div>
+
+    <div class="card">
+      <h2>Projects</h2>
+      <p>Coming soon...</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: manavravindra.dev@gmail.com</p>
+    </div>
   </div>
 
 </body>
